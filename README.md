@@ -32,7 +32,7 @@ There are multiple cleanings of the data...<br>
 -SECOND Cleaning: Data resampled to display data shown every 15 minutes, instead of the every minute shown by default export from TeslaFi.  This dataset was saved as the variable 'TF_resample'.<br>
 -THIRD Cleaning: We still have a lot of data.  We filtered again to only show rows with a status of "online".<br>
 <br>
--New Value: Data export only shows "passenger_temp_setting" in Celsius.  We have created a new column, converting to Fahrenheit.  New column name 'passenger_temp_settingF'.
+-New Value: Data export only shows "passenger_temp_setting" in Celsius.  We have created a new column, converting to Fahrenheit.  New column name 'passenger_temp_settingF'.<br>
 -New Value: We have divided battery range and maximum range columns and multiplied by 100 to give us the average percentage of maximum range used.  These results have been added as an additional column titled 'avg_percentage_used".<br>
 <br>
 Feature 3: Visualize/Present your Data.  Three visualizations are required.<br>
