@@ -41,3 +41,23 @@ Feature 3: Visualize/Present your Data.  Three visualizations are required.<br>
 -THREE: Simple plot showing milage added to odometer from Jan 1 through Feb 28.  <br>
 -FOUR: Simple scatter plot showing the outside temperature compared to the temperature set inside the vehicle<br>
 <br>
+<br>
+Feature 4: Data Dictionary<br>
+| Column Name | Description | Source | Optional |
+| ----------- | ----------- | ------ | -------- |
+| Date       | The date and time of data pulled | TeslaFi | Y |
+| state | State of vehicle (online/offline | TeslaFi | Y |
+| battery_range | Vehigle range, at battery charge | TeslaFi | Y |
+| charge_rate | Rate at which battery is charging, at that Date | TeslaFi | N |
+| longitude | Longitude of vehicle location | TeslaFi | Y |
+| latitude | Latitude of vehicle location | TeslaFi | Y |
+| speed | Vehicle speed at that Data | TeslaFi | N |
+| passenger_temp_setting | If dual climate active, passenget side temperature | TeslaFi | N |
+| is_auto_conditioning_on | Has user enabled climate control to prepare for drive | TeslaFi | N |
+| smart_preconditioning | Has vehicle enabled battery/electronics conditioning for preservation | TeslaFi | N |
+| fan_status | What speed is the climate control fan on | TeslaFi | N |
+| odometer | Vehicle odometer reading | TeslaFi | Y |
+| inside_tempF | Vehicle inside temperature | TeslaFi | Y |
+| driver_temp_settingF | Climate Control driver set temperature | TeslaFi | Y |
+| ouside_tempF | Environmental temperature at vehicle location | TeslaFi | Y |
+| maxRange | Maximum vehicle range | TeslaFi | Y |
