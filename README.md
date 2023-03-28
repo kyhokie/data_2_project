@@ -18,6 +18,8 @@ Required imports are:<br>
 -import matplotlib.pyplot as plt<br>
 <br>
 -a pip install of 'basemap' may be required, on your machine<br>
+NOTE: Installation of Basemap can be difficult on some systems.  This project has been uploaded to Google Colab at the following link:<br>
+-https://colab.research.google.com/drive/16Df3vxV6XHHVqaR-9k3EJ3tnzDUuYiez?usp=sharing
 <br>
 <br>
 Features of the product include:<br>
