@@ -20,7 +20,7 @@ Required imports are:<br>
 -a pip install of 'basemap' may be required, on your machine<br>
 <br>
 <br>
-Feature of the product include:<br>
+Features of the product include:<br>
 Feature 1: Loading Data in from the below TWO csv files:<br>
 -Data read in from local CSV 'TeslaFi12023.csv'<br>
 -Data read in from local CSV 'TeslaFi22023.csv'<br>
